@@ -41,7 +41,6 @@ PhonebookAPI/
 |--------|------------------------|-----------------------|
 | POST   | `/api/Account/Register` | Register a new user  |
 | POST   | `/api/Account/Login`    | Authenticate user    |
-| POST   | `/api/Account/AddRole`  | Assign roles to users |
 
 ### Contacts
 | Method | Endpoint                            | Description                 |
