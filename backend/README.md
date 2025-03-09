@@ -4,7 +4,7 @@
 This is the backend service for the PhoneBook application, built using **.NET Core**. It provides a set of RESTful APIs for managing user accounts and contacts.
 
 ## Technologies Used
-- **.NET Core 7**
+- **.NET Core 8**
 - **Entity Framework Core** (EF Core) for database access
 - **Swagger** for API documentation
 - **SQL Server** for data storage
