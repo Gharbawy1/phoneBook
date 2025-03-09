@@ -20,7 +20,7 @@ export class AuthService {
       }
     )
       .pipe(
-        catchError(this.handleError) // معالجة الأخطاء
+        catchError(this.handleError) 
       );
   }
 
@@ -34,7 +34,7 @@ export class AuthService {
   logOut(){
     localStorage.removeItem('token');
     localStorage.removeItem('role');
-    localStorage.removeItem('email'); // ✅ مسح الإيميل عند تسجيل الخروج
+    localStorage.removeItem('email');
   }
 
 }

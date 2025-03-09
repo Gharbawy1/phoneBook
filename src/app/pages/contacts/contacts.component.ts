@@ -153,6 +153,6 @@ export class ContactsComponent implements OnInit {
 
   logOut() {
     this.authService.logOut();
-    this.router.navigate(['/login']); // ✅ توجيه المستخدم لصفحة تسجيل الدخول
+    this.router.navigate(['/login']); 
   }
 }

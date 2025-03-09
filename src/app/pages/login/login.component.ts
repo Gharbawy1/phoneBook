@@ -59,9 +59,8 @@ export class LoginComponent implements OnInit {
           var role = payload.role;
           localStorage.setItem('role', role);
           localStorage.setItem('token', token);
-          localStorage.setItem('email', email); // ✅ مسح الإيميل عند تسجيل الخروج
+          localStorage.setItem('email', email); 
           localStorage.setItem('userName', res.data.userName);
-          // ✅ التوجيه بعد تسجيل الدخول الناجح
           this.router.navigate(['/Contacts']);
         },
       });

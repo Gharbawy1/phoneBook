@@ -68,10 +68,10 @@ export class AddContactDialogComponent implements OnInit {
       this.contactService.addContact(newContact).subscribe(
         (response: any) => {
           this.snackBar.open('Contact added successfully!', 'Close', {
-            duration: 3000, // المدة بالمللي ثانية (3 ثواني)
+            duration: 3000, 
             verticalPosition: 'top',
             horizontalPosition: 'center',
-            panelClass: ['success-snackbar'], // كلاس مخصص
+            panelClass: ['success-snackbar'], 
           });
           this.ref.close(response);
         },

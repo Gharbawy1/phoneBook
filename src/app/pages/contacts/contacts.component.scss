@@ -1,4 +1,3 @@
-/* ✅ تحسين الـ Navbar */
 mat-toolbar {
     background: linear-gradient(to right, #3f51b5, #2196f3); /* 🎨 تدرج أزرق */
     color: white;
@@ -6,17 +5,14 @@ mat-toolbar {
     padding: 10px;
   }
   
-  /* ✅ زر تسجيل الخروج */
   button[mat-button] {
     font-weight: bold;
   }
   
-  /* ✅ ضبط توزيع العناصر في الـ Navbar */
   .spacer {
     flex: 1 1 auto;
   }
   
-  /* ✅ تحسين تصميم الكارد */
   .contacts-card {
     margin: 20px auto;
     padding: 20px;
@@ -27,21 +23,18 @@ mat-toolbar {
     background: white;
   }
   
-  /* ✅ تحسين شكل الجدول */
   table {
     width: 100%;
     border-radius: 8px;
     overflow: hidden;
   }
   
-  /* ✅ تحسين الـ Header */
   th {
     background: #3f51b5 !important;
     color: white !important;
     font-weight: bold;
   }
   
-  /* ✅ تحسين ألوان الـ Rows */
   tr:nth-child(even) {
     background-color: #f3f3f3;
   }
@@ -50,12 +43,10 @@ mat-toolbar {
     background-color: rgba(63, 81, 181, 0.2);
   }
   
-  /* ✅ تحسين الأزرار */
   button[mat-icon-button] mat-icon {
     font-size: 20px;
   }
   
-  /* ✅ تحسين الـ Pagination */
   mat-paginator {
     background: white;
     margin-top: 20px;
@@ -124,6 +115,6 @@ section {
   cursor: pointer;
 }
 .mat-icon:hover {
-  background-color: rgba(8, 8, 8, 0.874); // لون رصاصي خفيف
-  border-radius: 4px; // يخلي الشكل أنعم
+  background-color: rgba(8, 8, 8, 0.874); 
+  border-radius: 4px; 
 }

@@ -30,13 +30,11 @@
   color: #333;
 }
 
-/* 🔹 تنسيق حقول الإدخال */
 mat-form-field {
   width: 100%;
   margin-bottom: 15px;
 }
 
-/* 🔹 زر تسجيل الدخول */
 .login-btn {
   padding: 12px;
   font-size: 16px;
@@ -52,7 +50,6 @@ mat-form-field {
   transform: scale(1.05);
 }
 
-/* 🟢 للأجهزة الصغيرة */
 @media (max-width: 480px) {
   .login-card {
       width: 90%;
