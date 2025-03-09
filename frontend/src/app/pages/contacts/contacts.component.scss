@@ -1,0 +1,129 @@
+/* ✅ تحسين الـ Navbar */
+mat-toolbar {
+    background: linear-gradient(to right, #3f51b5, #2196f3); /* 🎨 تدرج أزرق */
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  /* ✅ زر تسجيل الخروج */
+  button[mat-button] {
+    font-weight: bold;
+  }
+  
+  /* ✅ ضبط توزيع العناصر في الـ Navbar */
+  .spacer {
+    flex: 1 1 auto;
+  }
+  
+  /* ✅ تحسين تصميم الكارد */
+  .contacts-card {
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background: white;
+  }
+  
+  /* ✅ تحسين شكل الجدول */
+  table {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* ✅ تحسين الـ Header */
+  th {
+    background: #3f51b5 !important;
+    color: white !important;
+    font-weight: bold;
+  }
+  
+  /* ✅ تحسين ألوان الـ Rows */
+  tr:nth-child(even) {
+    background-color: #f3f3f3;
+  }
+  
+  tr:hover {
+    background-color: rgba(63, 81, 181, 0.2);
+  }
+  
+  /* ✅ تحسين الأزرار */
+  button[mat-icon-button] mat-icon {
+    font-size: 20px;
+  }
+  
+  /* ✅ تحسين الـ Pagination */
+  mat-paginator {
+    background: white;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logout-btn {
+  background: linear-gradient(to right, #ff5722, #ff1744); /* 🔥 تدرج ألوان أحمر */
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-left: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.logout-btn:hover {
+  background: linear-gradient(to right, #d84315, #d50000); /* لون أغمق عند الـ Hover */
+  transform: scale(1.05);
+}
+
+
+
+// For add button
+section {
+  display: table;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: table-cell;
+  max-width: 600px;
+}
+
+.example-button-row .mat-mdc-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 140px;
+}
+
+
+
+
+.mat-icon {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.mat-icon:hover {
+  background-color: rgba(8, 8, 8, 0.874); // لون رصاصي خفيف
+  border-radius: 4px; // يخلي الشكل أنعم
+}

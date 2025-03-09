@@ -1,0 +1,30 @@
+/* ✅ تحسين العنوان */
+.dialog-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* ✅ ترتيب الحقول باستخدام Flexbox */
+.dialog-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; /* مسافة بين الحقول */
+    padding: 10px 0;
+    width:50%;
+}
+
+/* ✅ جعل الحقول تأخذ العرض الكامل */
+.full-width {
+    width: 100%;
+}
+
+/* ✅ ترتيب الأزرار */
+.dialog-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+}

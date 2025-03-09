@@ -1,0 +1,17 @@
+D:\PhonebookAPI\phoneBook.DataAccess\bin\Debug\net8.0\phoneBook.DataAccess.deps.json
+D:\PhonebookAPI\phoneBook.DataAccess\bin\Debug\net8.0\phoneBook.DataAccess.runtimeconfig.json
+D:\PhonebookAPI\phoneBook.DataAccess\bin\Debug\net8.0\phoneBook.DataAccess.dll
+D:\PhonebookAPI\phoneBook.DataAccess\bin\Debug\net8.0\phoneBook.DataAccess.pdb
+D:\PhonebookAPI\phoneBook.DataAccess\obj\Debug\net8.0\phoneBook.DataAccess.csproj.AssemblyReference.cache
+D:\PhonebookAPI\phoneBook.DataAccess\obj\Debug\net8.0\phoneBook.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\PhonebookAPI\phoneBook.DataAccess\obj\Debug\net8.0\phoneBook.DataAccess.AssemblyInfoInputs.cache
+D:\PhonebookAPI\phoneBook.DataAccess\obj\Debug\net8.0\phoneBook.DataAccess.AssemblyInfo.cs
+D:\PhonebookAPI\phoneBook.DataAccess\obj\Debug\net8.0\phoneBook.DataAccess.csproj.CoreCompileInputs.cache
+D:\PhonebookAPI\phoneBook.DataAccess\obj\Debug\net8.0\phoneBook.DataAccess.dll
+D:\PhonebookAPI\phoneBook.DataAccess\obj\Debug\net8.0\refint\phoneBook.DataAccess.dll
+D:\PhonebookAPI\phoneBook.DataAccess\obj\Debug\net8.0\phoneBook.DataAccess.pdb
+D:\PhonebookAPI\phoneBook.DataAccess\obj\Debug\net8.0\phoneBook.DataAccess.genruntimeconfig.cache
+D:\PhonebookAPI\phoneBook.DataAccess\obj\Debug\net8.0\ref\phoneBook.DataAccess.dll
+D:\PhonebookAPI\phoneBook.DataAccess\bin\Debug\net8.0\phoneBook.Entities.dll
+D:\PhonebookAPI\phoneBook.DataAccess\bin\Debug\net8.0\phoneBook.Entities.pdb
+D:\PhonebookAPI\phoneBook.DataAccess\obj\Debug\net8.0\phoneBoo.F8449F6A.Up2Date

@@ -1,0 +1,60 @@
+.login-wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #042c37, #630000); 
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.login-card {
+  width: 400px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  background: white;
+  text-align: center;
+  
+}
+
+.login-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* 🔹 تنسيق حقول الإدخال */
+mat-form-field {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* 🔹 زر تسجيل الدخول */
+.login-btn {
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.login-btn:hover {
+  background: #1741aa;
+  color: aliceblue;
+  transform: scale(1.05);
+}
+
+/* 🟢 للأجهزة الصغيرة */
+@media (max-width: 480px) {
+  .login-card {
+      width: 90%;
+  }
+}

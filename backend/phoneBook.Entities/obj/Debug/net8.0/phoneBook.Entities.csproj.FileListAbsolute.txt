@@ -1,0 +1,12 @@
+D:\PhonebookAPI\phoneBook.Entities\obj\Debug\net8.0\phoneBook.Entities.csproj.AssemblyReference.cache
+D:\PhonebookAPI\phoneBook.Entities\obj\Debug\net8.0\phoneBook.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\PhonebookAPI\phoneBook.Entities\obj\Debug\net8.0\phoneBook.Entities.AssemblyInfoInputs.cache
+D:\PhonebookAPI\phoneBook.Entities\obj\Debug\net8.0\phoneBook.Entities.AssemblyInfo.cs
+D:\PhonebookAPI\phoneBook.Entities\obj\Debug\net8.0\phoneBook.Entities.csproj.CoreCompileInputs.cache
+D:\PhonebookAPI\phoneBook.Entities\bin\Debug\net8.0\phoneBook.Entities.deps.json
+D:\PhonebookAPI\phoneBook.Entities\bin\Debug\net8.0\phoneBook.Entities.dll
+D:\PhonebookAPI\phoneBook.Entities\bin\Debug\net8.0\phoneBook.Entities.pdb
+D:\PhonebookAPI\phoneBook.Entities\obj\Debug\net8.0\phoneBook.Entities.dll
+D:\PhonebookAPI\phoneBook.Entities\obj\Debug\net8.0\refint\phoneBook.Entities.dll
+D:\PhonebookAPI\phoneBook.Entities\obj\Debug\net8.0\phoneBook.Entities.pdb
+D:\PhonebookAPI\phoneBook.Entities\obj\Debug\net8.0\ref\phoneBook.Entities.dll
