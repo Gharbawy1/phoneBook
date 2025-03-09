@@ -1,0 +1,30 @@
+<h1 mat-dialog-title class="dialog-title">{{ data?.title }}</h1>
+
+<div mat-dialog-content class="dialog-content">
+    <form [formGroup]="newContactForm" style="margin-left: 100%;margin-top: 10%;">
+        <mat-form-field>
+            <mat-label>Name</mat-label>
+            <input matInput formControlName="name">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Email</mat-label>
+            <input matInput type="email" formControlName="email">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Phone Number</mat-label>
+            <input matInput type="tel" formControlName="phoneNumber" id="phone">
+            <!-- <ngx-intl-tel-input formControlName="phone" [preferredCountries]="['eg', 'us', 'gb']"
+                [enablePlaceholder]="true" [separateDialCode]="true">
+            </ngx-intl-tel-input> -->
+        </mat-form-field>
+    </form>
+</div>
+
+<div mat-dialog-actions class="dialog-actions">
+    <button mat-raised-button color="warn" (click)="closepopup()">Close</button>
+    <button mat-raised-button color="primary" [disabled]="newContactForm.invalid" (click)="saveContact()">Save</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.0/build/js/intlTelInput.min.js"></script>
