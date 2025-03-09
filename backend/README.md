@@ -12,7 +12,7 @@ This is the backend service for the PhoneBook application, built using **.NET Co
 - **Dependency Injection (DI)** for service management
 - **JWT Authentication** for securing endpoints
 
-## Project Structure
+## Project Structure (Onion Archticture)
 ```
 PhonebookAPI/
 │── phoneBook.DataAccess/       # Data access layer
