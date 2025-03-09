@@ -1,7 +1,7 @@
 # 🚀 Contact Management System  
 
 A full-stack **Contact Management System** built using:
-- **📡 Backend:** .NET Core 7 with Entity Framework Core  
+- **📡 Backend:** .NET Core 8 with Entity Framework Core  
 - **💻 Frontend:** Angular 17 with Angular Material  
 
 This system allows users to manage contacts efficiently, providing **CRUD operations**, **pagination**, and an intuitive UI.  
@@ -12,7 +12,7 @@ This system allows users to manage contacts efficiently, providing **CRUD operat
 This project consists of two main components:
 
 1. **Backend (`/backend`)**  
-   - RESTful API built with .NET 7  
+   - RESTful API built with .NET 8 
    - Authentication using JWT  
    - SQL Server database  
    - API documentation using Swagger  
