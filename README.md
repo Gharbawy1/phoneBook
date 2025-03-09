@@ -1,13 +1,34 @@
-# 🚀 Contact Management System
+2️⃣ Run the Frontend
+Navigate to the frontend folder, install dependencies, and start the application:
 
-A contact management system with two main components:
-- **📡 Backend**: A REST API built with .NET
-- **💻 Frontend**: A user interface built with Angular
+bash
+Copy
+Edit
+cd frontend
+npm install
+ng serve
+3️⃣ Open the Application
+Go to http://localhost:4200 in your browser to use the application.
 
-## 🛠️ How to Run the Project?
+yaml
+Copy
+Edit
 
-### 1️⃣ Run the `Backend`
-Navigate to the `backend` folder and start the application:
-```bash
-cd backend
-dotnet run
+---
+
+## ✍ **Backend `README.md`**
+Inside **`backend/README.md`**, document the API in detail.
+
+```md
+# 📡 Backend - Contact Management API
+
+## 🛠️ Technologies Used
+- **.NET Core 7**
+- **Entity Framework Core**
+- **SQL Server**
+- **JWT Authentication**
+
+## 🚀 Running the Backend
+1. Install dependencies:
+   ```bash
+   dotnet restore
