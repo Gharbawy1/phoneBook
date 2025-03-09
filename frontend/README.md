@@ -1,59 +1,76 @@
-# PhoneBook
+# 📱 Phonebook Frontend
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
+This is the **frontend** of the Phonebook application built using **Angular 19**. It allows **admins** to manage contacts and supports user authentication. 🎯
 
-## Development server
+## 🌟 Features
 
-To start a local development server, run:
+✅ **Login & Authentication**  
+✅ **Contact Management** (Add, Edit, Delete, Update)  
+✅ **Live Search** 🔍  
+✅ **Pagination** 🗄  
+✅ **Role-Based Access Control** (Users can only view contacts)  
 
-```bash
-ng serve
-```
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🛠️ Installation & Setup
 
-## Code scaffolding
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/your-repo.git
+   cd frontend
+   ```
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+2. Install dependencies:  
+   ```sh
+   npm install
+   ```
 
-```bash
-ng generate component component-name
-```
+3. Start the development server:  
+   ```sh
+   ng serve
+   ```
+   The app will be available at **`http://localhost:4200/`** 🚀  
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🔑 Authentication & Roles
 
-## Building
+- **Admin:** Can **Add, Edit, Delete, and Update** contacts.  
+- **User:** Can **only view** contacts.  
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## 📌 API Endpoints
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+The frontend interacts with the **backend API** for authentication and contact management. Below are the key endpoints used:
 
-## Running unit tests
+### 🟢 **Authentication**
+- `POST /api/Account/Register` ➔ Register a new user  
+- `POST /api/Account/Login` ➔ User login  
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### 👇 **Contacts**
+- `GET /api/Contact/GetAllContacts` ➔ Fetch all contacts  
+- `GET /api/Contact/GetContactById/{id}` ➔ Get a contact by ID  
+- `POST /api/Contact/AddNewContact` ➔ Add a new contact  
+- `PUT /api/Contact/{id}` ➔ Update a contact  
+- `DELETE /api/Contact/{id}` ➔ Delete a contact  
 
-```bash
-ng test
-```
+---
 
-## Running end-to-end tests
+## 🎨 UI Components
 
-For end-to-end (e2e) testing, run:
+- **Login Page**: Allows users to log in. 🔑  
+- **Dashboard**: Displays all contacts with pagination. 👇  
+- **Live Search**: Instantly search for contacts. 🔍  
+- **Admin Controls**: Edit, Delete, and Add contacts. ⚙️  
 
-```bash
-ng e2e
-```
+---
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## 🏗️ Tech Stack
 
-## Additional Resources
+- **Angular 19** 🅰️  
+- **TypeScript** ⌨️  
+- **Angular Material** 🎨  
+- **RxJS** 🔄  
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
